@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import DataofStudent from './Assignment_PartA/Data';
+import Form from './PartB/Form';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    
+    <DataofStudent/>
+    <Form/>
   </React.StrictMode>
 );
 
